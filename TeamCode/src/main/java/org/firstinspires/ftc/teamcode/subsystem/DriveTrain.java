@@ -80,6 +80,10 @@ public class DriveTrain extends ButterflyMech{
         }
     }
 
+    public void resetIMU(){
+        imu.resetYaw();
+    }
+
 
 
 
