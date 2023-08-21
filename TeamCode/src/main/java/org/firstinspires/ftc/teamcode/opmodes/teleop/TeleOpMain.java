@@ -119,6 +119,7 @@ public class TeleOpMain extends OpMode {
                     }
                     outTake.zeroIntake();
                     lift.groundPos();
+                    state = INTAKE_GOING_TO_DEPOSIT
                 }
                 break;
         }
